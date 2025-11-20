@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const PORT = 4200;
-
+//pequeno cambio
 app.use(express.static('www'));
 app.get('/', (req, res) => {
   res.redirect('/');
